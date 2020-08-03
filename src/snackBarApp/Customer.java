@@ -27,4 +27,13 @@ public class Customer
     {
         this.name = name;
     }
+
+    //constructor
+    public Customer(String name, double cashOnHand)
+    {
+        maxId++;
+        id = maxId;
+        this.name = name;
+        this.cashOnHand = cashOnHand;
+    }
 }

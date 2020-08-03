@@ -22,4 +22,12 @@ public class VendingMachine
     {
         this.name = name;
     }
+
+    //constructor
+    public VendingMachine(String name)
+    {
+        maxId++;
+        id = maxId;
+        this.name = name;
+    }
 }
