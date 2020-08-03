@@ -46,6 +46,20 @@ public class Snack
         this.vendingMachineId = vendingMachineId;
     }
 
+    //other methods
+    public int addQuanity(int num1)
+    {
+        return quanity + num1;
+    }
+    public int buySnack(int num2)
+    {
+        return quanity - num2;
+    }
+    public double totalCost()
+    {
+        return quanity * cost;
+    }
+
     //constructor
     public Snack(String name, int quanity, double cost, int vendingMachineId)
     {
