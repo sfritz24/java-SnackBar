@@ -45,4 +45,15 @@ public class Snack
     {
         this.vendingMachineId = vendingMachineId;
     }
+
+    //constructor
+    public Snack(String name, int quanity, double cost, int vendingMachineId)
+    {
+        maxId++;
+        id = maxId;
+        this.name = name;
+        this.quanity = quanity;
+        this.cost = cost;
+        this.vendingMachineId = vendingMachineId;
+    }
 }
