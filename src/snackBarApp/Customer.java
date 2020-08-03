@@ -28,6 +28,16 @@ public class Customer
         this.name = name;
     }
 
+    //other methods
+    public double addCash(double num1)
+    {
+        return cashOnHand + num1;
+    }
+    public double buySnacks(double num2)
+    {
+        return cashOnHand - num2;
+    }
+
     //constructor
     public Customer(String name, double cashOnHand)
     {
