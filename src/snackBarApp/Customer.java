@@ -46,4 +46,10 @@ public class Customer
         this.name = name;
         this.cashOnHand = cashOnHand;
     }
+
+    //override
+    public String toString()
+    {
+        return "Customer " + id + " cash on hand is $" + cashOnHand;
+    }
 }

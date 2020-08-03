@@ -70,4 +70,10 @@ public class Snack
         this.cost = cost;
         this.vendingMachineId = vendingMachineId;
     }
+
+    //override
+    public String toString()
+    {
+        return "Quanity of snack " + id + " is " + quanity;
+    }
 }
