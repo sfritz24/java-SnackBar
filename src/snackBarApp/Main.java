@@ -37,6 +37,24 @@ public class Main
         s4.buySnack(2);
         System.out.println(c2);
         System.out.println(s4);
+
+        c1.addCash(10);
+        System.out.println(c1);
+
+        double problem5 = s2.totalCost(1);
+        c1.buySnacks(problem5);
+        s2.buySnack(1);
+        System.out.println(c1);
+        System.out.println(s2);
+
+        s3.addQuanity(12);
+        System.out.println(s3);
+
+        double problem7 = s3.totalCost(3);
+        c2.buySnacks(problem7);
+        s3.buySnack(3);
+        System.out.println(c2);
+        System.out.println(s3);
     }
 
     public static void main(String[] args)
