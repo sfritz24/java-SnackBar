@@ -72,8 +72,8 @@ public class Snack
     }
 
     //override
-    public String toString()
-    {
-        return "Quanity of snack " + id + " is " + quanity;
-    }
+    // public String toString()
+    // {
+    //     return "Quanity of snack " + id + " is " + quanity;
+    // }
 }

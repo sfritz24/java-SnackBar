@@ -48,8 +48,8 @@ public class Customer
     }
 
     //override
-    public String toString()
-    {
-        return "Customer " + id + " cash on hand is $" + cashOnHand;
-    }
+    // public String toString()
+    // {
+    //     return "Customer " + id + " cash on hand is $" + cashOnHand;
+    // }
 }
