@@ -47,15 +47,15 @@ public class Snack
     }
 
     //other methods
-    public int addQuanity(int num1)
+    public void addQuanity(int num1)
     {
-        return quanity + num1;
+        this.quanity = this.quanity + num1;
     }
-    public int buySnack(int num2)
+    public void buySnack(int num2)
     {
-        return quanity - num2;
+        this.quanity = this.quanity - num2;
     }
-    public double totalCost()
+    public double totalCost(int quanity)
     {
         return quanity * cost;
     }

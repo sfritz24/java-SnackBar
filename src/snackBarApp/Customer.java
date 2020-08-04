@@ -29,13 +29,13 @@ public class Customer
     }
 
     //other methods
-    public double addCash(double num1)
+    public void addCash(double num1)
     {
-        return cashOnHand + num1;
+        this.cashOnHand = this.cashOnHand + num1;
     }
-    public double buySnacks(double num2)
+    public void buySnacks(double num2)
     {
-        return cashOnHand - num2;
+        this.cashOnHand = this.cashOnHand - num2;
     }
 
     //constructor
